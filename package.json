@@ -1,0 +1,51 @@
+{
+  "name": "don-nodejs-commons-hapi",
+  "version": "1.0.0",
+  "description": "Utilities package for nodejs and hapijs projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Diego Fernandes",
+    "email": "diegocruzfernandes@hotmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "hapi-auth-jwt2": "^7.2.4",
+    "hapi-swaggered": "^2.12.2",
+    "hapi-swaggered-ui": "^2.6.2",
+    "http-status": "^1.0.1",
+    "inert": "^4.2.1",
+    "klaw-sync": "^3.0.0",
+    "raven": "^2.2.1",
+    "uuid": "^3.0.1",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.0",
+    "babel-eslint": "^4.1.8",
+    "del": "^2.0.2",
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.13.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "isparta": "^3.0.3"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  }
+}
