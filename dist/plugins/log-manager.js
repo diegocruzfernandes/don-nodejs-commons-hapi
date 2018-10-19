@@ -229,3 +229,4 @@ register.attributes = {
 
 exports['default'] = register;
 module.exports = exports['default'];
+//# sourceMappingURL=log-manager.js.map

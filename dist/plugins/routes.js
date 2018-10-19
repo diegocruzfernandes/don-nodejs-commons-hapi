@@ -4,9 +4,7 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {'default': obj};
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var _klawSync = require('klaw-sync');
 
@@ -20,7 +18,7 @@ var register = function register(server, options, next) {
     return item.path.endsWith('-routes.js');
   };
 
-  (0, _klawSync2['default'])(options.config.routesBaseDir, {filter: filterFn}).forEach(function (route) {
+  (0, _klawSync2['default'])(options.config.routesBaseDir, { filter: filterFn }).forEach(function (route) {
     var routeObject = {
       register: require(route.path),
       options: {
@@ -44,3 +42,4 @@ register.attributes = {
 
 exports['default'] = register;
 module.exports = exports['default'];
+//# sourceMappingURL=routes.js.map

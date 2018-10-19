@@ -1,0 +1,1 @@
+{"version":3,"sources":["utils/package.js"],"names":[],"mappings":"AAAA,YAAY,CAAC;;;;;;;AAEN,SAAS,OAAO,GAAG;AACxB,MAAI,IAAI,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;AACzC,SAAO,IAAI,CAAC,OAAO,CAAC;CACrB","file":"package.js","sourcesContent":["'use strict';\n\nexport function version() {\n  var pack = require('../../package.json');\n  return pack.version;\n}\n"]}
